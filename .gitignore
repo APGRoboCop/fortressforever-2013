@@ -26,6 +26,10 @@ vgui_controls.lib
 *.cache
 *.unsuccessfulbuild
 generated_proto
+*.pdb
+*mp/src/.vs
+*mp/src/game/client/Debug_FortressForever
+*mp/src/game/server/Debug_FortressForever
 
 # OSX/Linux build products
 *.mak
