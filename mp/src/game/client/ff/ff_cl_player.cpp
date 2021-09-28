@@ -184,7 +184,7 @@ void CFF_CL_Player::UpdateLookAt( void )
 	// blinking
 	if (m_blinkTimer.IsElapsed())
 	{
-		m_blinktoggle = !m_blinktoggle;
+		m_blinktoggle = ~m_blinktoggle;
 		m_blinkTimer.Start( RandomFloat( 1.5f, 4.0f ) );
 	}
 

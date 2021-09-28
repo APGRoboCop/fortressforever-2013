@@ -50,7 +50,7 @@ bool CFF_SH_GameMovement::CheckJumpButton( void )
 	if (!CanJump())
 		return false;
 
-	CBaseEntity *pOldGroundEntity = player->GetGroundEntity();
+	//CBaseEntity *pOldGroundEntity = player->GetGroundEntity(); pOldGroundEntity not referenced [APG]RoboCop[CL]
 
 	// In the air now.
     SetGroundEntity( NULL );
